@@ -1,6 +1,6 @@
 HTML/CSS Project from The Odin Project.
 
-GOAL: Re-Create the Google Homepage
+GOAL: Re-Create the Google Homepage.
 
-Project Started May 25th, 2019
+This README serves to document progress and challenges encountered during the project.
 
