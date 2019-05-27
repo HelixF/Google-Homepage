@@ -1,8 +1,57 @@
 body {
-    background-color: aliceblue ;
+    -webkit-appearance: none;
+    background-color: white ;
 }
 
-p {
-    font-weight: bold ;
-    color: darkgray ;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    }
+
+li {
+    margin: 8px;
+    font-size: 13px;
+}    
+
+.left-nav {
+    float: left;
+    margin: 5px;
+    
+}
+
+.right-nav {
+    float: right;
+}
+
+.google-image {
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+input[type=text] {
+    font: 16px arial,sans-serif;
+    border-radius: 25px;
+    min-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 34px;
+}
+
+input[type=submit] {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0 16px;
+    cursor: pointer;
+
 }
