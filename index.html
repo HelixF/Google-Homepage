@@ -9,25 +9,43 @@
 </head>
 <body>
     <header>
-        <ul class="left-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-        </ul>
-        <ul class="right-nav">
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-        </ul>
+        <nav>
+            <!-- Left Navbar Items -->
+            <ul class="leftItems">
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+
+             <!-- Right Navbar Items -->
+            <ul class="rightItems">
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href=""><img class="apps-img" src="apps.png"/></a></li>
+                <li><a href=""><button>Sign in</button></a></li>
+            </ul>
+        </nav>
     </header>
-    <img class="google-image" src="googlelogo.png" alt="An image of the Google logo"/>
-    <div class="search-form">
+
+
+    <!-- MAIN ELEMENTS -->
+    <div class="mainElements">
+        
+        <!-- Google Image -->
+        <img class="google-image" src="logo.png" alt="An image of the Google logo"/>
+        
+        <!-- Input and Submit Search Form -->
         <form method="POST">
-                <input type="text" name="search" autocomplete="off">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+
+            <!-- Input bar -->
+            <input class="searchBar" type="text" name="search" autocomplete="off">
+
+            <!-- Button Google Search -->
+            <input type="submit" value="Google Search">
+            <!-- Button I'm Feeling Lucky-->
+            <input type="submit" value="I'm Feeling Lucky">
         </form>
     </div>
-    
-    
-    
+
+
 </body>
 </html>
