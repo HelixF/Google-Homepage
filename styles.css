@@ -5,7 +5,7 @@ body {
 }
 
 
-/* NAVBAR STYLING */
+/* TOP NAVBAR STYLING */
 
 header {
     position: fixed;
@@ -95,13 +95,13 @@ input[type=text] {
     border-width: 1px;
     border-style: solid;
     border-color: #d9d9d9;
-    min-width: 500px;
-    height: 34px;
+    min-width: 550px;
+    height: 40px;
 }
 
 input[type=submit] {
     height: 35px;
-
+    width: 135px;
     color: #595959;
     display: inline-block;
     margin-left: auto;
@@ -114,4 +114,70 @@ input[type=submit] {
     margin-top: 25px;
     margin-left: 5px;
 
+}
+
+.countryBar {
+    width: 100%;
+    height: 45px;
+    font: 15px arial,sans-serif;
+    font-weight: 300;
+    color: #737373;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 40px;
+    left: 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e6e6e6;
+}
+
+p {
+    position: fixed;
+    left: 25px;
+}
+
+/* BOOTOM STYLING */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e6e6e6;
+
+}
+
+footer * {
+    display: inline;
+}
+
+.leftBottom {
+    float: left;
+    height: 40px;
+    background-color: #f2f2f2;
+    width: 50%;
+}
+
+.rightBottom {
+    float: right;
+    height: 40px;
+    text-align: end;
+    background-color: #f2f2f2;
+    width: 50%;
+}
+
+.bottomElementsLeft {
+    position: fixed;
+    bottom: 13px;
+    left: 20px;
+    
+}
+
+.bottomElementsRight {
+    position: fixed;
+    bottom: 13px;
+    right: 20px;
 }
